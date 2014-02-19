@@ -1,12 +1,13 @@
 import oauth2 as oauth
 import urllib2 as urllib
+import my_twitter_auth as myauth
 
 # See Assignment 1 instructions or README for how to get these credentials
-access_token_key = "24051909-OHP9Fw1gVVEpyhdSjgC3CbL5ONt2s7vrAUVLHgxzH"
-access_token_secret = "uE6qSAxMpkbPkLYhVE0Gwmo9Xs5A67lWJzGKpeI"
+access_token_key = myauth.access_token_key
+access_token_secret = myauth.access_token_secret
 
-consumer_key = "YikteGE8E689rUQuf6AFRQ"
-consumer_secret = "8nj6LErajdL227JMrOJL9C5e2UQRccbUeSgmXKeraG0"
+consumer_key = myauth.consumer_key
+consumer_secret = myauth.consumer_secret
 
 _debug = 0
 
